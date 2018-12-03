@@ -19,3 +19,5 @@ function element() {
 }
 
 document.body.appendChild(element());
+
+console.log(module);
