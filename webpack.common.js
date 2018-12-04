@@ -4,7 +4,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 process.env.NODE_ENV = 'production';
 
 module.exports = {
-  devtool: 'source-map',
   entry: {
     app: './src/js/index.js',
     // print: './src/js/print.js'
